@@ -1,4 +1,4 @@
-ww# new_mobile
+new_mobile
 
 A new Flutter project.
 
