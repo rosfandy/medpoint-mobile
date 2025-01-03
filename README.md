@@ -1,16 +1,47 @@
-new_mobile
+# Medpoint System - Frontend (Mobile)
 
-A new Flutter project.
+## Introduction
 
-## Getting Started
+**Medpoint System** adalah sebuah platform yang memungkinkan pengguna untuk melakukan berbagai jenis reservasi medis online, termasuk konsultasi dokter, tes laboratorium, tindakan medis, dan vaksinasi. Sistem ini memudahkan pengguna dengan proses reservasi yang lebih efisien sehingga tidak perlu melakukan pendaftaran ulang secara offline saat menjalani tindakan medis.
 
-This project is a starting point for a Flutter application.
+### Fitur Utama
 
-A few resources to get you started if this is your first Flutter project:
+- **Reservasi Medis Online:** Pengguna dapat melakukan reservasi untuk konsultasi dokter, tes laboratorium, tindakan medis, dan vaksinasi.
+- **Pencarian Dokter dan Fasilitas Kesehatan:** Memudahkan pengguna untuk menemukan dokter dan fasilitas kesehatan terdekat.
+- **Penjadwalan Janji Temu:** Pengguna dapat menjadwalkan janji temu dengan dokter atau tindakan medis.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Deskripsi Sistem (Mobile)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Frontend mobile** dari **Medpoint System** dikembangkan menggunakan bahasa pemrograman **Dart** dan framework **Flutter**. Aplikasi mobile ini memungkinkan pengguna untuk melakukan reservasi medis, mengelola profil pribadi, melakukan pembayaran, notifikasi dan pencarian dokter. Aplikasi ini dirancang untuk memudahkan pengguna dalam mengakses layanan kesehatan secara efisien dan efektif.
+
+## Teknologi yang Digunakan
+
+- **Bahasa Pemrograman:** Dart
+- **Framework:** Flutter
+- **Database:** PostgreSql + Supabase
+
+## Dokumentasi Flutter
+
+Untuk informasi lebih lanjut tentang framework Flutter, dapat mengunjungi [Dokumentasi Flutter](https://flutter.dev).
+
+## Folder Structure
+
+```javascript
+├── assets                        # Folder contain assets
+│   ├── images
+│   └── ...
+│
+└── lib                           # Main folder
+    │
+    ├── constant                  # Define env variable
+    │
+    ├── features                  # Folders contain application features
+    │   ├── doctor
+    │   │   ├── data              # Data layer
+    │   │   ├── domain            # Domain layer
+    │   │   └── presentation      # Presentation layer
+    │   └── ...
+    │
+    ├── main.dart
+    └── ...
+```
